@@ -15,7 +15,7 @@ struct SettingsView: View {
     var location: Location
     
     var body: some View {
-        VStack(spacing: 12.0, content: {
+        VStack(spacing: 22.0, content: {
             Text("SettingsView")
                 .font(.largeTitle)
                 .multilineTextAlignment(.center)
@@ -28,6 +28,7 @@ struct SettingsView: View {
             Text(location.city)
                 .font(.title)
                 .multilineTextAlignment(.center)
+                .padding(.vertical, 12.0)
             
             Button("Revenir à l'écran précédent", action: {
                 path.removeLast()
