@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC6F55A32B472F1E00AABF9F /* swiftui_navigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F55A22B472F1E00AABF9F /* swiftui_navigationApp.swift */; };
-		FC6F55A52B472F1E00AABF9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F55A42B472F1E00AABF9F /* ContentView.swift */; };
+		FC6F55A32B472F1E00AABF9F /* SwiftUINavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F55A22B472F1E00AABF9F /* SwiftUINavigationApp.swift */; };
+		FC6F55A52B472F1E00AABF9F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F55A42B472F1E00AABF9F /* HomeView.swift */; };
 		FC6F55A72B472F1F00AABF9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6F55A62B472F1F00AABF9F /* Assets.xcassets */; };
 		FC6F55AB2B472F1F00AABF9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6F55AA2B472F1F00AABF9F /* Preview Assets.xcassets */; };
+		FC6F55B22B47327900AABF9F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F55B12B47327900AABF9F /* MapView.swift */; };
+		FC6F55B42B47329900AABF9F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F55B32B47329900AABF9F /* SettingsView.swift */; };
+		FC6F55B62B4736E100AABF9F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F55B52B4736E100AABF9F /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC6F559F2B472F1E00AABF9F /* swiftui-navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-navigation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC6F55A22B472F1E00AABF9F /* swiftui_navigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_navigationApp.swift; sourceTree = "<group>"; };
-		FC6F55A42B472F1E00AABF9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC6F55A22B472F1E00AABF9F /* SwiftUINavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINavigationApp.swift; sourceTree = "<group>"; };
+		FC6F55A42B472F1E00AABF9F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FC6F55A62B472F1F00AABF9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC6F55A82B472F1F00AABF9F /* swiftui_navigation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swiftui_navigation.entitlements; sourceTree = "<group>"; };
 		FC6F55AA2B472F1F00AABF9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC6F55B12B47327900AABF9F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		FC6F55B32B47329900AABF9F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FC6F55B52B4736E100AABF9F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +58,11 @@
 		FC6F55A12B472F1E00AABF9F /* swiftui-navigation */ = {
 			isa = PBXGroup;
 			children = (
-				FC6F55A22B472F1E00AABF9F /* swiftui_navigationApp.swift */,
-				FC6F55A42B472F1E00AABF9F /* ContentView.swift */,
+				FC6F55A22B472F1E00AABF9F /* SwiftUINavigationApp.swift */,
+				FC6F55A42B472F1E00AABF9F /* HomeView.swift */,
+				FC6F55B12B47327900AABF9F /* MapView.swift */,
+				FC6F55B32B47329900AABF9F /* SettingsView.swift */,
+				FC6F55B52B4736E100AABF9F /* Location.swift */,
 				FC6F55A62B472F1F00AABF9F /* Assets.xcassets */,
 				FC6F55A82B472F1F00AABF9F /* swiftui_navigation.entitlements */,
 				FC6F55A92B472F1F00AABF9F /* Preview Content */,
@@ -139,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC6F55A52B472F1E00AABF9F /* ContentView.swift in Sources */,
-				FC6F55A32B472F1E00AABF9F /* swiftui_navigationApp.swift in Sources */,
+				FC6F55A52B472F1E00AABF9F /* HomeView.swift in Sources */,
+				FC6F55B42B47329900AABF9F /* SettingsView.swift in Sources */,
+				FC6F55B62B4736E100AABF9F /* Location.swift in Sources */,
+				FC6F55B22B47327900AABF9F /* MapView.swift in Sources */,
+				FC6F55A32B472F1E00AABF9F /* SwiftUINavigationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
